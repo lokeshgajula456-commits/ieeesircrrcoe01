@@ -340,6 +340,16 @@ ul {
     padding: 60px 0;
 }
 
+.hero__college-highlight {
+    display: block;
+    color: var(--accent-light);
+    font-size: 250;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
 .hero__badge {
     display: inline-block;
     background: rgba(0, 180, 216, 0.15);

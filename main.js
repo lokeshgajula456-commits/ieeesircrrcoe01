@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightboxClose = document.getElementById('lightbox-close');
     const lightboxPrev = document.getElementById('lightbox-prev');
     const lightboxNext = document.getElementById('lightbox-next');
-    const contactForm = document.getElementById('contact-form');
     const eventTabs = document.querySelectorAll('.events__tab');
     const eventCards = document.querySelectorAll('.event-card');
     const galleryItems = document.querySelectorAll('.gallery__item');
@@ -304,37 +303,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close on backdrop click
     lightbox.addEventListener('click', (e) => {
         if (e.target === lightbox) closeLightbox();
-    });
-
-    /* ========================================
-       CONTACT FORM
-       ======================================== */
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-
-        const name = contactForm.querySelector('#name').value.trim();
-        const email = contactForm.querySelector('#email').value.trim();
-        const message = contactForm.querySelector('#message').value.trim();
-
-        if (!name || !email || !message) return;
-
-        // Show success message
-        let successEl = contactForm.querySelector('.form__success');
-        if (!successEl) {
-            successEl = document.createElement('div');
-            successEl.className = 'form__success';
-            successEl.textContent = '✅ Thank you! Your message has been sent successfully.';
-            contactForm.appendChild(successEl);
-        }
-        successEl.classList.add('show');
-
-        // Reset form
-        contactForm.reset();
-
-        // Hide success after 5 seconds
-        setTimeout(() => {
-            successEl.classList.remove('show');
-        }, 5000);
     });
 
     /* ========================================

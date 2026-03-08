@@ -610,7 +610,7 @@ ul {
     background: var(--gradient-primary);
     transform: scaleX(0);
     transition: transform var(--transition);
-    object-fit: cover;
+    
 }
 
 .team-card:hover {
@@ -640,7 +640,7 @@ ul {
     border: 3px solid rgba(0, 98, 155, 0.15);
     margin: 0 auto 16px;
     transition: border-color var(--transition);
-   object-fit: cover;
+   object-fit: contain;
 }
 
 .team-card:hover .team-card__img-wrap {
@@ -1595,6 +1595,7 @@ ul {
         align-items: center;
     }
 }
+
 
 
 

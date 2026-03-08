@@ -312,6 +312,7 @@ ul {
 .college-logo-1 {
    align-items: left;
    margin-right: 2px;
+   min-height: 50vh;
 }
 
 .hero {
@@ -1568,6 +1569,7 @@ ul {
         align-items: center;
     }
 }
+
 
 
 

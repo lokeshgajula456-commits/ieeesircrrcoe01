@@ -310,10 +310,11 @@ ul {
    HERO
    ======================================== */
 .college-logo-1 {
-   align-items: left;
+    align-items: left;
     margin-right: 2px;
     min-height: 50vh;
     border-radius: 5px;
+
 }
 
 .hero {
@@ -371,24 +372,46 @@ ul {
     transform: translateY(-4px);
 }
 
+.hero__college-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.hero__college-text {
+    text-align: left;
+}
+
+.hero__college-logo {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    background: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
 .hero__college-highlight {
     display: block;
     color: var(--accent-light);
-    font-size: 250;
-    font-weight: 1000;
-    letter-spacing: 2px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 12px;
-   align-item: middle;
-   margin-left: 5px;
+    margin-bottom: 8px;
 }
+
 .college {
-   color: rgb(255,255,255);
-   font-size: small;
-   font-family: arial;
-   margin-bottom: 12px;
-   
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
 }
+
 .hero__badge {
     display: inline-block;
     background: rgba(0, 180, 216, 0.15);
@@ -1570,18 +1593,3 @@ ul {
         align-items: center;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

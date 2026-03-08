@@ -309,6 +309,11 @@ ul {
 /* ========================================
    HERO
    ======================================== */
+.college-logo-1 {
+   align-items: left;
+   margin-right: 2px;
+}
+
 .hero {
     position: relative;
     min-height: 50vh;
@@ -1563,6 +1568,7 @@ ul {
         align-items: center;
     }
 }
+
 
 
 

@@ -373,7 +373,9 @@ ul {
     text-transform: uppercase;
     margin-bottom: 12px;
 }
-
+.college {
+   color: rgb(255,255,255);
+}
 .hero__badge {
     display: inline-block;
     background: rgba(0, 180, 216, 0.15);
@@ -1555,3 +1557,4 @@ ul {
         align-items: center;
     }
 }
+

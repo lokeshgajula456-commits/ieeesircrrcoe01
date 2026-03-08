@@ -311,7 +311,7 @@ ul {
    ======================================== */
 .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 150vh;
     display: flex;
     align-items: center;
     background: var(--gradient-hero);
@@ -1561,6 +1561,7 @@ ul {
         align-items: center;
     }
 }
+
 
 
 

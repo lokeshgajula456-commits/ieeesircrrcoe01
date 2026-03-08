@@ -340,6 +340,30 @@ ul {
     padding: 60px 0;
 }
 
+.hero__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.hero__logo {
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    background: #fff;
+    padding: 6px;
+    border-radius: var(--radius-md);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: transform var(--transition);
+}
+
+.hero__logo:hover {
+    transform: translateY(-4px);
+}
+
 .hero__college-highlight {
     display: block;
     color: var(--accent-light);
@@ -632,6 +656,19 @@ ul {
     background: var(--ieee-blue);
     color: #fff;
     transform: scale(1.1);
+}
+
+.team__faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+@media (max-width: 991px) {
+    .team__faculty-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .team__grid {

@@ -375,8 +375,8 @@ ul {
 }
 .college {
    color: rgb(255,255,255);
-   font-size: 50;
-   font-weight: 100;
+   font-size: small;
+   font-family: arial;
    
 }
 .hero__badge {
@@ -1560,6 +1560,7 @@ ul {
         align-items: center;
     }
 }
+
 
 
 

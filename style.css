@@ -311,8 +311,9 @@ ul {
    ======================================== */
 .college-logo-1 {
    align-items: left;
-   margin-right: 2px;
-   min-height: 50vh;
+    margin-right: 2px;
+    min-height: 50vh;
+    border-radius: 5px;
 }
 
 .hero {
@@ -360,8 +361,8 @@ ul {
     width: auto;
     object-fit: contain;
     background: #fff;
-    padding: 6px;
-    border-radius: var(--radius-md);
+    padding: 8px 16px;
+    border-radius: 5px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     transition: transform var(--transition);
 }
@@ -1569,6 +1570,7 @@ ul {
         align-items: center;
     }
 }
+
 
 
 

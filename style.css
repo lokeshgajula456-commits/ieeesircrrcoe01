@@ -375,6 +375,8 @@ ul {
 }
 .college {
    color: rgb(255,255,255);
+   font-size: 50;
+   font: times new roman;
 }
 .hero__badge {
     display: inline-block;
@@ -1557,4 +1559,5 @@ ul {
         align-items: center;
     }
 }
+
 

@@ -634,7 +634,7 @@ ul {
 .team-card__img-wrap {
     width: 100%;
     height: 100%;
-    border-radius: 20%;
+    border-radius: 50%;
     overflow: hidden;
     flex-shrink: 0;
     border: 3px solid rgba(0, 98, 155, 0.15);
@@ -1596,6 +1596,7 @@ ul {
         align-items: center;
     }
 }
+
 
 
 

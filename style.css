@@ -372,6 +372,8 @@ ul {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 12px;
+   align-item: middle;
+   margin-left: 5px;
 }
 .college {
    color: rgb(255,255,255);
@@ -1561,6 +1563,7 @@ ul {
         align-items: center;
     }
 }
+
 
 
 

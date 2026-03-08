@@ -311,7 +311,7 @@ ul {
    ======================================== */
 .hero {
     position: relative;
-    min-height: 150vh;
+    min-height: 110vh;
     display: flex;
     align-items: center;
     background: var(--gradient-hero);
@@ -377,7 +377,7 @@ ul {
    color: rgb(255,255,255);
    font-size: small;
    font-family: arial;
-   margin-bottom: 10px;
+   margin-bottom: 12px;
    
 }
 .hero__badge {
@@ -1561,6 +1561,7 @@ ul {
         align-items: center;
     }
 }
+
 
 
 
